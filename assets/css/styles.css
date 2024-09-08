@@ -256,15 +256,31 @@ a:hover{
 
 /* Home Section */
 .home-section{
+    /* height: 100vh; */
     position: relative;
     overflow: hidden;
-    padding-top: 150px;
-    padding-bottom: 100px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+@media (max-width: 2560px) {
+    .home-section {
+        /* Estilos específicos para pantallas de hasta 2K */
+        padding-top: 405px;
+        padding-bottom: 405px;
+    }
 }
 
+@media (max-width: 1920px) {
+    .home-section {
+        /* Estilos específicos para pantallas de hasta 1080p */
+        padding-top: 225px;
+        padding-bottom: 225px;
+    }
+}
 @media (max-width: 767px){
     .home-section{
-        padding-bottom: 70px;
+        padding-top: 120px;
+        padding-bottom: 100px;
     }
 }
 
@@ -331,19 +347,64 @@ a:hover{
 }
 
 .home-image img{
-    height: 450px;
-    width: 450px;
-    object-fit: cover;
+    height: 500px;
+    width: 500px;
+    /* height: 450px;
+    width: 450px; */
+    /* object-fit: cover; */
     border-radius: 50%;
-    border: 2px solid #000;
+    /* border: 2px solid #000; */
     position: relative;
     z-index: -2;
+}
+
+@media (max-width: 1199px){
+    .home-image img{
+        height: 400px;
+        width: 400px;
+    }
 }
 
 @media (max-width: 767px){
     .home-image img{
         height: 300px;
         width: 300px;
+    }
+}
+
+@media (max-width: 767px){
+    .home-image img{
+        height: 300px;
+        width: 300px;
+    }
+}
+
+/* about */
+.about-text p{
+    font-size: 22px;
+}
+
+@media (max-width: 767px){
+    .about-text p{
+        font-size: 18px;
+    }
+}
+
+.about-image{
+    /* height: 500px;
+    width: 500px; */
+    /* height: 450px;
+    width: 450px; */
+    /* object-fit: cover; */
+    border-radius: 1%;
+    border: 3px solid #373737;
+    position: relative;
+    z-index: -2;
+    /* transform: scaleX(-1); */
+}
+@media (max-width: 767px){
+    .about-image{
+        margin-top: -30px;
     }
 }
 
@@ -435,10 +496,6 @@ a:hover{
     }
 }
 
-.about-text p{
-    font-size: 18px;
-}
-
 .feature-box{
     padding: 40px;
     border: 2px solid var(--dark-color);
@@ -470,8 +527,7 @@ a:hover{
 }
 
 .feature-box .content{
-    max-width: calc(100% - 70px);
-    padding-left: 20px;
+    /* padding-left: 20px; */
 }
 
 .feature-box .content-soft{

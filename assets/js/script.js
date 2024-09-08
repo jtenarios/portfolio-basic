@@ -68,20 +68,21 @@ document.addEventListener('DOMContentLoaded', function() {
     event.preventDefault();
     const targetIndex = event.target.getAttribute('data-scroll-nav');
     const targetSection = document.querySelector(`section[data-scroll-index="${targetIndex}"]`);
-
+  
     if (targetSection) {
       const targetPosition = targetSection.offsetTop;
+      const offset = -55; // Ajusta este valor según sea necesario
       window.scrollTo({
-        top: targetPosition,
+        top: targetPosition + offset,
         behavior: 'smooth'
       });
     }
   }
-
+  
   navItems.forEach(navItem => {
     navItem.addEventListener('click', onClickNavItem);
   });
-
+  
   window.addEventListener('scroll', onScroll);
   onScroll(); // Llamar a la función para establecer la sección activa al cargar la página
 });
