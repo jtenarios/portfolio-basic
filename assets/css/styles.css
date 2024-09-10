@@ -1,5 +1,11 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap'); */
 
+/* @font-face {
+    font-family: 'Jost';
+    src: url('assets/fonts/Jost-VariableFont_wght.ttf') format('truetype');
+    font-style: normal;
+} */
+
 :root{
     --theme-color: #ef6c00;
     --theme-color: #F06500;
