@@ -109,7 +109,12 @@
             </div>
             <div class="col-lg-6 pt-4 pt-lg-0 text-center">
               <span class="home-image">
-                <img src="assets/images/home.webp" alt="Home Image">
+                <picture>
+                  <source srcset="assets/images/home-mobile.webp" media="(max-width: 767px)">
+                  <source srcset="assets/images/home.webp" media="(min-width: 768px)">
+                  <img src="assets/images/home.webp" alt="Home Image">
+                </picture>
+                <!-- <img src="assets/images/home.webp" alt="Home Image"> -->
               </span>
           </div>
         </div>
@@ -120,7 +125,11 @@
       <div class="container">
         <div class="row gy-5 align-items-center">
           <div class="col-lg-6 order-2 order-lg-1 text-center">
+            <source srcset="assets/images/about-mobile.webp" media="(max-width: 767px)">
+            <source srcset="assets/images/about.webp" media="(min-width: 768px)">
             <img class="about-image" src="assets/images/about.webp" alt="">
+          </picture>
+            <!-- <img class="about-image" src="assets/images/about.webp" alt=""> -->
           </div>
           <div class="col-lg-6 order-1 order-lg-2 ps-lg-5">
             <div class="about-text">
@@ -627,7 +636,7 @@
             <div class="row align-items-center">
               <div class="col py-1 text-center">
                 <p class="m-0">
-                  <span class="nowrap">Desarrollado con <img src="assets/icons/favicon.svg" width="20px" alt=""><span style="color: transparent;">GG</span> por</span>
+                  <span class="nowrap">Desarrollado con <img src="assets/icons/favicon.svg" width="20px" alt="pasión"><span style="color: transparent;">GG</span> por</span>
                   <span class="nowrap"> David García González</span> 
                   <a class="ms-3 nowrap" href="https://github.com/DavidGG-dev/portfolio" target="_blank" rel="noopener"> 
                     <i class="bx bxl-github"></i> 
