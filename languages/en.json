@@ -1,0 +1,68 @@
+{
+    "menu":{
+        "home":"home",
+        "about":"about",
+        "technologies":"technologies",
+        "experience":"experience",
+        "projects":"Proyects",
+        "soft-skills":"soft skills",
+        "contact":"Contact"
+    },
+    "home":{
+        "presentation":"Hi, I'm <span class='sub-title-color nowrap'>David García González</span>",
+        "open-to-work":"LOOKING FOR INTERNSHIPS",
+        "cv":"Download CV",
+        "contact":"Contact"
+    },    
+    "about":{
+        "title":"<span class='nowrap'>From Technical Support</span> <span class='nowrap'>to Backend Development</span>",
+        "p1":"After more than 5 years of experience as an IT technician, <span class='nowrap'>I decided</span> to pursue my true passion, software development. <span class='nowrap'>I have</span> focused my efforts on backend development, particularly with Java and Spring.",
+        "p2":"Now, I am seeking an opportunity in a dynamic company where I can apply and expand my skills, actively contributing to the team's growth and success, with the intention of establishing a long-term working relationship."
+    },
+    "technologies":{
+        "title":"Featured Technologies",
+        "tools":"tools",
+        "learning":"learning"
+    },
+    "experience":{
+        "title":"Experience",
+        "subtitle-1":"Professional",
+        "subtitle-2":"Academic",
+        "professional-1-title":"IT Technician at GXO",
+        "professional-1-subtitle":"+5 years · November 2017 - March 2023 [Guadalajara, Spain][Logistics]",
+        "professional-1-p":"Responsible for managing and maintaining IT infrastructure in one of the largest warehouses in Europe, my role included ensuring the continuous operation of systems and providing technical support to employees.",
+        "professional-1-li-1":"I participated in the installation of the IT infrastructure in what was, at that time, the largest facility in Europe, ensuring its proper functioning during the first five years of operation.",
+        "professional-1-li-2":"I provided technical support to employees in the use of ERP systems, management software, and communication tools, troubleshooting issues and ensuring operational continuity.",
+        "professional-1-li-3":"I trained employees to resolve recurring incidents, reducing support requests by 25%.",
+        "professional-1-li-4":"This experience allowed me to better understand how users interact with applications, which helps me develop more intuitive and user-focused software.",
+        "academic-pretitle":"Higher Technician in",
+        "academic-1-title":"Building Projects",
+        "academic-1-subtitle":"2017 - Aguas Vivas [Guadalajara, Spain]",
+        "academic-1-p":"This training has given me a unique and valuable perspective on software development. Thanks to it, I have a better understanding of the needs and viewpoints of professionals from other sectors, which allows me to communicate more effectively and apply technological solutions more precisely. This skill is especially relevant in fields such as home automation and industrial solutions, where the integration of software with physical systems is essential.",
+        "academic-2-title":"Multiplatform Application Development",
+        "academic-2-subtitle":"2025 - Brianda de Mendoza [Guadalajara, Spain]",
+        "academic-2-p":"I acquired a solid foundation in software development and explored various areas of the field, which provided me with a comprehensive perspective. This allows me to understand the interconnection of its different areas and approach projects with a strategic vision."
+    },
+    "projects":{
+        "title":"Latest Projects",
+        "button-code":"Code",
+        "project-1-title":"Audio VU Meter Widget",
+        "project-1-p1":"I developed an audio level meter widget using Python and PySide6. This widget allows real-time visualization of audio levels captured by a microphone.",
+        "project-1-p2":"After completing its development, I decided to share it with the world under the LGPLv3 license, allowing anyone to collaborate and contribute to the project."
+    },
+    "soft-skills":{
+        "title":"Soft Skills",
+        "soft-skill-1-title":"Teamwork",
+        "soft-skill-1-p": "I have cultivated my teamwork skills through various collaborative experiences. Interacting with people from different perspectives has taught me the importance of clear communication, cooperation, and empathy to achieve common goals. These interactions have allowed me to contribute effectively to collective objectives and strengthen my interpersonal relationships.",
+        "soft-skill-2-title":"Resilience",
+        "soft-skill-2-p": "He desarrollado mi resiliencia a lo largo del tiempo al enfrentar situaciones difíciles y superar adversidades. Cada desafío me ha enseñado a mantener la calma, aprender de las experiencias y continuar con determinación. Este proceso me ha fortalecido, permitiéndome manejar futuros obstáculos con una mentalidad más positiva y enfocada.",
+        "soft-skill-3-title":"Adaptability",
+        "soft-skill-3-p": "I have developed my resilience over time by facing difficult situations and overcoming adversity. Each challenge has taught me to stay calm, learn from the experiences, and move forward with determination. This process has strengthened me, enabling me to handle future obstacles with a more positive and focused mindset.",
+        "soft-skill-4-title":"Receptivity to criticism",
+        "soft-skill-4-p": "I have learned to receive constructive criticism by being in various contexts where feedback is a crucial part of the improvement process. Over time, I have developed the ability to listen attentively, reflect thoughtfully, and apply others' suggestions effectively, using criticism as a valuable tool for both personal and professional growth."
+    },
+    "footer":{
+        "developed":"Developed with <img src='assets/icons/favicon.svg' width='20px' alt='pasión'><span style='color: transparent;'>GG</span> by",
+        "code":"Code"
+    }
+}

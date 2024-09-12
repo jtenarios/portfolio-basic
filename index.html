@@ -30,7 +30,7 @@
   <meta name="referrer" content="no-referrer">
   <meta http-equiv="Permissions-Policy" content="geolocation=(), microphone=(), camera=()">
   
-  <title>David García González - Desarrollador Backend | Java & Spring</title>
+  <title>David García González - Backend Developer | Java & Spring</title>
   <link rel="icon" href="assets/icons/favicon.svg" type="image/svg">
   <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
@@ -56,25 +56,35 @@
         <div class="navbar-collapse collapse  justify-content-end" id="navbar-collapse-toggle">
           <ul class="navbar-nav mx-auto">
             <li class="nav-item">
-              <a href="#home" class="nav-link" data-scroll-nav="0" title="Inicio">Inicio</a>
+              <a href="#home" class="nav-link" data-scroll-nav="0" title="Inicio" data-section="menu" data-value="home">Inicio</a>
             </li>
             <li class="nav-item">
-              <a href="#about" class="nav-link" data-scroll-nav="1" title="Sobre mí">Sobre mí</a>
+              <a href="#about" class="nav-link" data-scroll-nav="1" title="Sobre mí" title="Inicio" data-section="menu" data-value="about">Sobre mí</a>
             </li>
             <li class="nav-item">
-              <a href="#technologies" class="nav-link" data-scroll-nav="2" title="Tegnologias">Tegnologias</a>
+              <a href="#technologies" class="nav-link" data-scroll-nav="2" title="Tegnologias" title="Inicio" data-section="menu" data-value="technologies">Tegnologias</a>
             </li>
             <li class="nav-item">
-              <a href="#experience" class="nav-link" data-scroll-nav="3" title="Experiencia">Experiencia</a>
+              <a href="#experience" class="nav-link" data-scroll-nav="3" title="Experiencia" title="Inicio" data-section="menu" data-value="experience">Experiencia</a>
             </li>
             <li class="nav-item">
-              <a href="#projects" class="nav-link" data-scroll-nav="4" title="Proyectos">Proyectos</a>
+              <a href="#projects" class="nav-link" data-scroll-nav="4" title="Proyectos" title="Inicio" data-section="menu" data-value="projects">Proyectos</a>
             </li>
             <li class="nav-item">
-              <a href="#soft-skills" class="nav-link" data-scroll-nav="5" title="Habilidades blandas">Habilidades blandas</a>
+              <a href="#soft-skills" class="nav-link" data-scroll-nav="5" title="Habilidades blandas" title="Inicio" data-section="menu" data-value="soft-skills">Habilidades blandas</a>
             </li>
-            <li class="nav-item">
-              <a href="#contact" class="nav-link" data-scroll-nav="6" title="Contacto">Contacto</a>
+            <li class="nav-item" >
+              <a href="#contact" class="nav-link" data-scroll-nav="6" title="Contacto" title="Inicio" data-section="menu" data-value="contact">Contacto</a>
+            </li>
+            <li>
+              <div id="flags" class="flags">
+                <div class="flags__item" data-language="es">
+                  <img src="assets/icons/es.svg" alt="" class="my-2">
+                </div>
+                <div class="flags__item" data-language="en">
+                  <img src="assets/icons/gb.svg" alt="" class="my-2">
+                </div>
+              </div>
             </li>
           </ul>
         </div>
@@ -98,13 +108,13 @@
           <div class="row gy-5 align-items-center">
             <div class="col-lg-6">
               <div class="home-intro text-center text-lg-start">
-                <span class="name">Hola, soy <span class="sub-title-color nowrap">David García González</span></span>
+                <span class="name" data-section="home" data-value="presentation">Hola, soy <span class="sub-title-color nowrap">David García González</span></span>
                 <h1 class="mt-3"><span id="type-it"></span></h1>
                 <div class="open-to-work mb-3 mb-xl-4"><span class="green-dot"></span>
-                <span class="ps-2"> BUSCANDO PRACTICAS</span>
+                <span class="ps-2" data-section="home" data-value="open-to-work"> BUSCANDO PRACTICAS</span>
               </div>
-                <a class="btn-theme mt-1  me-sm-0 ms-2" target="_blank" href="assets/downloads/CV - David García González.pdf" >Descargar CV</a>
-                <a href="#contact" class="btn-theme ms-3 me-2 ms-sm-5 mt-4 mt-sm-0" title="Contacto">Contacto</a>
+                <a class="btn-theme mt-1  me-sm-0 ms-2" target="_blank" href="assets/downloads/CV - David García González.pdf" data-section="home" data-value="cv">Descargar CV</a>
+                <a href="#contact" class="btn-theme ms-3 me-2 ms-sm-5 mt-4 mt-sm-0" title="Contacto" data-section="home" data-value="contact">Contacto</a>
               </div>
             </div>
             <div class="col-lg-6 pt-4 pt-lg-0 text-center">
@@ -133,12 +143,12 @@
           </div>
           <div class="col-lg-6 order-1 order-lg-2 ps-lg-5">
             <div class="about-text">
-              <h2 class="h1 mb-3 text-dark fw-semibold text-center">
+              <h2 class="h1 mb-3 text-dark fw-semibold text-center" data-section="about" data-value="title">
                 Del Soporte Técnico al <span class="nowrap">Desarrollo Backend</span>
               </h2>
-              <p>Tras más de 5 años de experiencia como técnico informático, decidí seguir mi verdadera pasión, el desarrollo de software. He profundizado en la parte backend con Java y Spring. 
+              <p data-section="about" data-value="p1">Tras más de 5 años de experiencia como técnico informático, decidí seguir mi verdadera pasión, el desarrollo de software. He profundizado en la parte backend con Java y Spring. 
               </p>
-              <p>
+              <p data-section="about" data-value="p2">
                 Ahora, busco una oportunidad en una empresa dinámica donde pueda aplicar y ampliar mis habilidades, contribuyendo activamente al crecimiento y 
                 éxito del equipo, con la intención de establecer una relación laboral a largo plazo.
                 </p>
@@ -163,7 +173,7 @@
     <section id="technologies" data-scroll-index="2" class="section bg-gray">
       <div class="container">
         <div class="section-heading">
-          <h2>Tegnologias Destacadas</h2>
+          <h2 data-section="technologies" data-value="title">Tegnologias Destacadas</h2>
         </div>
         <div class="row gy-5 justify-content-around">
           <!-- Frontend -->
@@ -251,7 +261,7 @@
           </div>
           <!-- Tools -->
           <div class="col-lg-5">
-            <h3 class="section-sub-heading">Herramientas</h3>
+            <h3 class="section-sub-heading" data-section="technologies" data-value="tools">Herramientas</h3>
             <div class="skill-box">
               <div class="row g-3">
                 <div class="col-6 col-md-4 col-lg-6">
@@ -293,11 +303,19 @@
           </div>
           <!-- Learning -->
           <div class="col-lg-5">
-            <h3 class="section-sub-heading">Aprendiendo</h3>
+            <h3 class="section-sub-heading" data-section="technologies" data-value="learning">Aprendiendo</h3>
             <div class="skill-box">
               <div class="row g-3">
                 <div class="col-6 col-md-4 col-lg-6">
                   <div class="feature-box feature-box-small bg-1">
+                    <div class="icon">
+                      <img src="assets/icons/typescript.svg" alt="">
+                    </div>
+                    <h4>TypeScript</h4>
+                  </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-6">
+                  <div class="feature-box feature-box-small bg-2">
                     <div class="icon">
                       <img src="assets/icons/angular.svg" alt="">
                     </div>
@@ -305,7 +323,7 @@
                   </div>
                 </div>
                 <div class="col-6 col-md-4 col-lg-6">
-                  <div class="feature-box feature-box-small bg-2">
+                  <div class="feature-box feature-box-small bg-3">
                     <div class="icon">
                       <!-- <i class="bx bxl-angular"></i> -->
                         <img  src="assets/icons/spring-security.svg" alt="">
@@ -325,22 +343,22 @@
     <section  id="experience" data-scroll-index="3" class="section ">
       <div class="container">
         <div class="section-heading">
-          <h2>EXPERIENCIA</h2>
+          <h2 data-section="experience" data-value="title">EXPERIENCIA</h2>
         </div>
         <div class="row gy-4">
           <div class="col-12 col-xl-6">
             <div></div>
-            <H3 class="section-sub-heading text-center">PROFESIONAL</H3>
+            <H3 class="section-sub-heading text-center" data-section="experience" data-value="subtitle-1">PROFESIONAL</H3>
             <div class="feature-box bg-1">
               <div class="content">
-                <h4 class="mb-1">Tecnico informatico en GXO</h4>
-                <span class="sub-title-color ">+5 años · Noviembre 2017 - Marzo 2023 [Guadalajara, España][Logística]</span>
-                <p>Encargado de gestionar y mantener la infraestructura IT en una de las naves más grandes de Europa, mi rol incluía garantizar la operación continua de los sistemas y ofrecer soporte técnico a los empleados.</p>
+                <h4 class="mb-1" data-section="experience" data-value="professional-1-title">Tecnico informatico en GXO</h4>
+                <span class="sub-title-color " data-section="experience" data-value="professional-1-subtitle">+5 años · Noviembre 2017 - Marzo 2023 [Guadalajara, España][Logística]</span>
+                <p data-section="experience" data-value="professional-1-p">Encargado de gestionar y mantener la infraestructura IT en una de las naves más grandes de Europa, mi rol incluía garantizar la operación continua de los sistemas y ofrecer soporte técnico a los empleados.</p>
                 <ul class="mt-3">
-                  <li>Participé en la instalación de la infraestructura IT en la nave que, en ese momento, era la más grande de Europa, asegurando su correcto funcionamiento durante los primeros cinco años de operación.</li>   
-                  <li>Brindé soporte técnico a los empleados en el uso de sistemas ERP, software de gestión y herramientas de comunicación, resolviendo incidencias y asegurando la continuidad operativa.</li>
-                  <li>Formé a empleados en la resolución de incidentes recurrentes, reduciendo las solicitudes de soporte en un 25%.</li>
-                  <li>Esta experiencia me permitió entender mejor cómo los usuarios interactúan con las aplicaciones, lo que me ayuda a desarrollar software más intuitivo y enfocado en la usabilidad.</li>             
+                  <li data-section="experience" data-value="professional-1-li-1">Participé en la instalación de la infraestructura IT en la nave que, en ese momento, era la más grande de Europa, asegurando su correcto funcionamiento durante los primeros cinco años de operación.</li>   
+                  <li data-section="experience" data-value="professional-1-li-2">Brindé soporte técnico a los empleados en el uso de sistemas ERP, software de gestión y herramientas de comunicación, resolviendo incidencias y asegurando la continuidad operativa.</li>
+                  <li data-section="experience" data-value="professional-1-li-3">Formé a empleados en la resolución de incidentes recurrentes, reduciendo las solicitudes de soporte en un 25%.</li>
+                  <li data-section="experience" data-value="professional-1-li-4">Esta experiencia me permitió entender mejor cómo los usuarios interactúan con las aplicaciones, lo que me ayuda a desarrollar software más intuitivo y enfocado en la usabilidad.</li>             
                 </ul>
               </div>
             </div>
@@ -348,24 +366,24 @@
 
 
           <div class="col-12 col-xl-6">
-            <H3 class="section-sub-heading text-center">ACADEMICA</H3>
+            <H3 class="section-sub-heading text-center" data-section="experience" data-value="subtitle-2">ACADEMICA</H3>
             <div class="row">
               <div class="col-12">
                 <div class="feature-box bg-2">
                   <div class="content">
-                    <span>Técnico Superior en </span>
-                    <h4 class="mb-1">Desarrollo de Aplicaciones Multiplataformas</h4>
-                    <span class="sub-title-color">2025 - Brianda de Mendoza [Guadalajara, España]</span>
-                    <p class="mt-3">Adquirí una base sólida en el desarrollo de software y exploré diversas áreas del campo, lo que me brindó una perspectiva integral. Esto me permite comprender la interconexión de sus distintas áreas y abordar proyectos con una visión estratégica.</p>
+                    <span data-section="experience" data-value="academic-pretitle">Técnico Superior en </span>
+                    <h4 class="mb-1" data-section="experience" data-value="academic-2-title">Desarrollo de Aplicaciones Multiplataformas</h4>
+                    <span class="sub-title-color" data-section="experience" data-value="academic-2-subtitle">2025 - Brianda de Mendoza [Guadalajara, España]</span>
+                    <p class="mt-3" data-section="experience" data-value="academic-2-p">Adquirí una base sólida en el desarrollo de software y exploré diversas áreas del campo, lo que me brindó una perspectiva integral. Esto me permite comprender la interconexión de sus distintas áreas y abordar proyectos con una visión estratégica.</p>
                   </div>
               </div>
               <div class="col">
                 <div class="feature-box bg-4 mt-4">
                   <div class="content">
-                    <span>Técnico Superior en </span>
-                    <h4 class="mb-1">Proyectos de Edificación</h4>
-                    <span class="sub-title-color">2017 - Aguas Vivas [Guadalajara, España]</span>
-                    <p class="mt-3">Esta formación me ha dado una perspectiva única y valiosa en el desarrollo de software. Gracias a ella, comprendo mejor las necesidades y puntos de vista de profesionales de otros sectores, lo que me permite comunicarme con mayor eficacia y aplicar soluciones tecnológicas de manera más precisa. Esta habilidad es especialmente relevante en campos como la domótica y las soluciones industriales, donde la integración de software con sistemas físicos es fundamental.</p>
+                    <span data-section="experience" data-value="academic-pretitle">Técnico Superior en </span>
+                    <h4 class="mb-1" data-section="experience" data-value="academic-1-title">Proyectos de Edificación</h4>
+                    <span class="sub-title-color" data-section="experience" data-value="academic-1-subtitle">2017 - Aguas Vivas [Guadalajara, España]</span>
+                    <p class="mt-3" data-section="experience" data-value="academic-1-p">Esta formación me ha dado una perspectiva única y valiosa en el desarrollo de software. Gracias a ella, comprendo mejor las necesidades y puntos de vista de profesionales de otros sectores, lo que me permite comunicarme con mayor eficacia y aplicar soluciones tecnológicas de manera más precisa. Esta habilidad es especialmente relevante en campos como la domótica y las soluciones industriales, donde la integración de software con sistemas físicos es fundamental.</p>
                   </div>
                 </div>
               </div>
@@ -382,7 +400,7 @@
     <section id="proyects" data-scroll-index="4" class="section bg-gray">
       <div class="container">
         <div class="section-heading">
-          <h2>Ultimos proyectos</h2>
+          <h2 data-section="projects" data-value="title">Ultimos proyectos</h2>
         </div>
         <div class="portfolio-box">
 
@@ -456,15 +474,15 @@
             <div class="col-md-6 col-lg-5">
               <div class="portafolio-text">
                 <!-- <span>Web Design</span> -->
-                <h3>Audio VU Meter Widget</h3>
-                <p>Desarrollé un widget de vúmetro de audio utilizando Python y PySide6. Este widget permite visualizar en tiempo real los niveles de audio capturados por un micrófono.</p>
-                <p>Después de finalizar su desarrollo, decidí compartirlo con el mundo bajo la licencia LGPLv3, permitiendo que cualquier persona colabore y contribuya al proyecto.</p>
+                <h3 data-section="projects" data-value="project-1-title">Audio VU Meter Widget</h3>
+                <p data-section="projects" data-value="project-1-p1">Desarrollé un widget de vúmetro de audio utilizando Python y PySide6. Este widget permite visualizar en tiempo real los niveles de audio capturados por un micrófono.</p>
+                <p data-section="projects" data-value="project-1-p2">Después de finalizar su desarrollo, decidí compartirlo con el mundo bajo la licencia LGPLv3, permitiendo que cualquier persona colabore y contribuya al proyecto.</p>
                   <div class="mb-3">
                     <img src="https://img.shields.io/badge/Python-yellow?logo=python&logoColor=white&color=373737" alt="Python Badge">
                     <img src="https://img.shields.io/badge/PySide6-orange?logo=qt&logoColor=white&color=373737" alt="PySide6 Badge">
                     <img src="https://img.shields.io/badge/QT%20Designer-blue?logo=qt&logoColor=white&color=373737" alt="QT Designer Badge"> 
                   </div>
-                <a href="#https://github.com/DavidGG-dev/VuMeterGG" class="btn-theme">CODíGO</a>
+                <a href="#https://github.com/DavidGG-dev/VuMeterGG" class="btn-theme" data-section="projects" data-value="button-code">CODÍGO</a>
               </div>
             </div>
           </div>
@@ -535,7 +553,7 @@
       <section id="soft-skills" data-scroll-index="5" class="section service-section bg-gray">
         <div class="container">
           <div class="section-heading">
-            <h2>habilidades blandas</h2>
+            <h2 data-section="soft-skills" data-value="title">habilidades blandas</h2>
           </div>
           <div class="row gy-4">
             <div class="col-xl-6">
@@ -547,10 +565,10 @@
                 </div>
                 <div class="col-8 col-sm-7 text-center
                 pe-sm-5 pe-md-3">
-                  <h3>Trabajo en equipo</h3>
+                  <h3 data-section="soft-skills" data-value="soft-skill-1-title">Trabajo en equipo</h3>
                 </div>
                 <div class="col-12 content-soft">
-                  <p>He cultivado mi habilidad para trabajar en equipo a través de diversas experiencias colaborativas. Interactuar con personas de diferentes perspectivas me ha enseñado la importancia de la comunicación clara, la cooperación y la empatía para alcanzar metas comunes. Estas interacciones me han permitido contribuir eficazmente a los objetivos colectivos y fortalecer mis relaciones interpersonales.</p>
+                  <p data-section="soft-skills" data-value="soft-skill-1-p">He cultivado mi habilidad para trabajar en equipo a través de diversas experiencias colaborativas. Interactuar con personas de diferentes perspectivas me ha enseñado la importancia de la comunicación clara, la cooperación y la empatía para alcanzar metas comunes. Estas interacciones me han permitido contribuir eficazmente a los objetivos colectivos y fortalecer mis relaciones interpersonales.</p>
                 </div>
               </div>
             </div>
@@ -563,10 +581,10 @@
                   </div>
                 </div>
                 <div class="col-8 col-sm-7 text-center pe-sm-5 pe-md-4">
-                  <h3>Resiliencia</h3>
+                  <h3 data-section="soft-skills" data-value="soft-skill-2-title">Resiliencia</h3>
                 </div>
                 <div class="col-12 content-soft">
-                  <p>He desarrollado mi resiliencia a lo largo del tiempo al enfrentar situaciones difíciles y superar adversidades. Cada desafío me ha enseñado a mantener la calma, aprender de las experiencias y continuar con determinación. Este proceso me ha fortalecido, permitiéndome manejar futuros obstáculos con una mentalidad más positiva y enfocada.</p>
+                  <p data-section="soft-skills" data-value="soft-skill-2-p">He desarrollado mi resiliencia a lo largo del tiempo al enfrentar situaciones difíciles y superar adversidades. Cada desafío me ha enseñado a mantener la calma, aprender de las experiencias y continuar con determinación. Este proceso me ha fortalecido, permitiéndome manejar futuros obstáculos con una mentalidad más positiva y enfocada.</p>
                 </div>
               </div>
             </div>
@@ -579,10 +597,10 @@
                   </div>
                 </div>
                 <div class="col-9 col-sm-7 text-center ps-4 pe-sm-5 pe-md-3 ">
-                  <h3>Adaptabilidad</h3>
+                  <h3 data-section="soft-skills" data-value="soft-skill-3-title">Adaptabilidad</h3>
                 </div>
                 <div class="col-12 content-soft">
-                  <p>Mi capacidad de adaptabilidad se ha formado al haberme expuesto a diferentes entornos y circunstancias cambiantes. He aprendido a ajustar rápidamente mis enfoques y a adaptarme a nuevas situaciones, viendo el cambio no como una amenaza, sino como una oportunidad para crecer y aprender continuamente.</p>
+                  <p data-section="soft-skills" data-value="soft-skill-3-p">Mi capacidad de adaptabilidad se ha formado al haberme expuesto a diferentes entornos y circunstancias cambiantes. He aprendido a ajustar rápidamente mis enfoques y a adaptarme a nuevas situaciones, viendo el cambio no como una amenaza, sino como una oportunidad para crecer y aprender continuamente.</p>
                 </div>
               </div>
             </div>
@@ -596,10 +614,10 @@
                   </div>
                 </div>
                 <div class="col-9 col-sm-7 text-center pe-sm-4">
-                  <h3>Receptividad a críticas</h3>
+                  <h3 data-section="soft-skills" data-value="soft-skill-4-title">Receptividad a críticas</h3>
                 </div>
                 <div class="col-12 content-soft">
-                  <p>He aprendido a recibir críticas constructivas al estar en contextos donde el feedback es parte del proceso de mejora. A lo largo del tiempo, he desarrollado la habilidad de escuchar, reflexionar y aplicar las sugerencias de los demás, utilizando las críticas como una herramienta valiosa para el crecimiento personal y profesional.</p>
+                  <p data-section="soft-skills" data-value="soft-skill-4-p">He aprendido a recibir críticas constructivas al estar en contextos donde el feedback es parte del proceso de mejora. A lo largo del tiempo, he desarrollado la habilidad de escuchar, reflexionar y aplicar las sugerencias de los demás, utilizando las críticas como una herramienta valiosa para el crecimiento personal y profesional.</p>
                 </div>
               </div>
             </div>
@@ -636,11 +654,11 @@
             <div class="row align-items-center">
               <div class="col py-1 text-center">
                 <p class="m-0">
-                  <span class="nowrap">Desarrollado con <img src="assets/icons/favicon.svg" width="20px" alt="pasión"><span style="color: transparent;">GG</span> por</span>
+                  <span class="nowrap" data-section="footer" data-value="developed">Desarrollado con <img src="assets/icons/favicon.svg" width="20px" alt="pasión"><span style="color: transparent;">GG</span> por</span>
                   <span class="nowrap"> David García González</span> 
                   <a class="ms-3 nowrap" href="https://github.com/DavidGG-dev/portfolio" target="_blank" rel="noopener"> 
                     <i class="bx bxl-github"></i> 
-                    <span>Código</span>
+                    <span data-section="footer" data-value="code">Código</span>
                   </a>
                 </p>
               </div>
