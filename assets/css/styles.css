@@ -705,11 +705,8 @@ a:hover{
 /* Contact Section */
 
 .mail{
-    margin: 0;
-    font-size: 40PX;
-    color: #fff;
-    font-weight: 500;
-
+    height: 40px;
+    border-radius: 10px;
 }
 
 .mail-img{
@@ -718,17 +715,25 @@ a:hover{
     filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.5));
 }
 
-#contact a{
+#social-networks a{
     transition:filter 0.3s ease-in-out, transform 0.3s ease-in-out; 
     filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.8));
 }
-#contact a:hover{
+#social-networks a:hover{
     filter: brightness(1.5);
     transform: matrix(1, -0.3, 0.3, 1, 0, 0);
 }
-#contact a + a:hover{
+#social-networks a + a:hover{
     filter: brightness(1.5);
     transform: matrix(1, 0.3, -0.3, 1, 0, 0);
+}
+
+#mail a{
+    transition:filter 0.3s ease-in-out, transform 0.3s ease-in-out;  
+}
+#mail a:hover{
+    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.3)) brightness(1.1);
+
 }
 
 @media (max-width: 767px){
@@ -755,7 +760,7 @@ a:hover{
         font-size: 28PX;
     }
 
-    #contact a{
+    #social-networks a{
         width: 80px;
     }
 }

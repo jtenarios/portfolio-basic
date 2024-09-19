@@ -2,7 +2,7 @@
     "menu":{
         "home":"Inicio",
         "about":"Sobre mi",
-        "technologies":"Tegnologias",
+        "technologies":"Tecnologías",
         "experience":"Experiencia",
         "projects":"Proyectos",
         "soft-skills":"habilidades blandas",
@@ -27,13 +27,13 @@
     "experience":{
         "title":"Experiencia",
         "subtitle-1":"Proefesional",
-        "subtitle-2":"Academica",
-        "professional-1-title":"Tecnico informatico en GXO",
-        "professional-1-subtitle":"+5 años · Noviembre 2017 - Marzo 2023 [Guadalajara, España][Logística]",
+        "subtitle-2":"Académica",
+        "professional-1-title":"Tecnico Informatico en GXO",
+        "professional-1-subtitle":"+5 años · Noviembre 2017 - Marzo 2023 [Guadalajara, España] [Logística]",
         "professional-1-p":"Encargado de gestionar y mantener la infraestructura IT en una de las naves más grandes de Europa, mi rol incluía garantizar la operación continua de los sistemas y ofrecer soporte técnico a los empleados.",
         "professional-1-li-1":"Participé en la instalación de la infraestructura IT en la nave que, en ese momento, era la más grande de Europa, asegurando su correcto funcionamiento durante los primeros cinco años de operación.",
-        "professional-1-li-2":"Brindé soporte técnico a los empleados en el uso de sistemas ERP, software de gestión y herramientas de comunicación, resolviendo incidencias y asegurando la continuidad operativa.",
-        "professional-1-li-3":"Formé a empleados en la resolución de incidentes recurrentes, reduciendo las solicitudes de soporte en un 25%.",
+        "professional-1-li-2":"Proporcioné soporte técnico a los empleados en el uso de sistemas ERP, software de gestión y herramientas de comunicación, resolviendo incidencias y asegurando la continuidad operativa.",
+        "professional-1-li-3":"Formé a los empleados en la resolución de incidentes recurrentes, reduciendo las solicitudes de soporte en un 25%.",
         "professional-1-li-4":"Esta experiencia me permitió entender mejor cómo los usuarios interactúan con las aplicaciones, lo que me ayuda a desarrollar software más intuitivo y enfocado en la usabilidad.",
         "academic-pretitle":"Técnico Superior en",
         "academic-1-title":"Proyectos de Edificación",
@@ -44,7 +44,7 @@
         "academic-2-p":"Adquirí una base sólida en el desarrollo de software y exploré diversas áreas del campo, lo que me brindó una perspectiva integral. Esto me permite comprender la interconexión de sus distintas áreas y abordar proyectos con una visión estratégica."
     },
     "projects":{
-        "title":"Ultimos Proyectos",
+        "title":"Últimos Proyectos",
         "button-code":"CODÍGO",
         "project-1-title":"Audio VU Meter Widget",
         "project-1-p1":"Desarrollé un widget de vúmetro de audio utilizando Python y PySide6. Este widget permite visualizar en tiempo real los niveles de audio capturados por un micrófono.",
