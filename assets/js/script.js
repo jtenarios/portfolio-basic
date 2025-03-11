@@ -12,9 +12,9 @@ const changeLanguage = async language =>{
     textToChange.innerHTML = texts[section][value];
   }
   if (language === 'es') {
-    cvLink.href = 'assets/downloads/CV - David García González - ES.pdf';
+    cvLink.href = 'assets/downloads/CV - Jaime Tena Rios - ES.pdf';
   } else {
-    cvLink.href = 'assets/downloads/CV - David García González - EN.pdf';
+    cvLink.href = 'assets/downloads/CV - Jaime Tena Rios - EN.pdf';
   }
 }
 
